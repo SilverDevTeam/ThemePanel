@@ -16,6 +16,44 @@ NookTheme is a free and open source [Pterodactyl theme](https://pterodactyl.io) 
 
 This will update your panel to the latest version of NookTheme panel is based. <br>
 You can see the version in the current branch name.
+
+<details>
+<summary>Upgrade PHP</summary>
+
+Before proceeding with the installation steps, ensure that your PHP version is upgraded to 8.2 or newer. Follow the instructions below to upgrade PHP:
+
+1. Update your package list:
+```bash
+sudo apt update
+```
+
+2. Install the required dependencies:
+```bash
+sudo apt install -y software-properties-common
+```
+
+3. Add the PHP repository:
+```bash
+sudo add-apt-repository ppa:ondrej/php
+```
+
+4. Update your package list again:
+```bash
+sudo apt update
+```
+
+5. Install PHP 8.3:
+```bash
+sudo apt install -y php8.3
+```
+
+6. Verify the PHP version:
+```bash
+php -v
+```
+
+</details>
+
 ### Enter Maintenance Mode
 
 Whenever you are performing an update you should be sure to place your Panel into maintenance mode. This will prevent
