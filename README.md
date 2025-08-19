@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This project hasn't been updated to the latest pterodactyl version yet, please avoid using it until we have time to merge upstream, this version has a vulnerability scored as 10.0/10.0 CVE, use it as your own risk!
+
 # Nook Theme
 NookTheme is a free and open source [Pterodactyl theme](https://pterodactyl.io) designed to be simple, clean, and modern.
 
